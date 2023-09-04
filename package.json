@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsc",
+    "start": "node dist/main/api"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/Lucas-Araujo15/advanced-node/issues"
   },
-  "homepage": "https://github.com/Lucas-Araujo15/advanced-node#readme"
+  "homepage": "https://github.com/Lucas-Araujo15/advanced-node#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.2",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3",
+    "rimraf": "^5.0.1"
+  }
 }
