@@ -1,5 +1,4 @@
 {
     "extends": "./tsconfig.json",
-    "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
     "exclude": ["tests"]
 }
