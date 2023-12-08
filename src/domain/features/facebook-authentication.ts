@@ -6,7 +6,7 @@ export interface FacebookAuthentication {
 }
 
 // Command Pattern
-namespace FacebookAuthentication {
+export namespace FacebookAuthentication {
   export type Params = {
     token: string
   }
